@@ -1,11 +1,12 @@
-﻿using System;
+using System;
 using System.Buffers;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Data.SqlClient;
+
 
 namespace ChattyDataAccess.Controllers
 {
